@@ -10,38 +10,38 @@ Navigate into the project directory cd express-cookie-server.
 
 Install the dependencies using npm install.
 
-#Running the Server:
+# Running the Server:
 To run the server, use the command npm start. This will start the server on port 8080.
 
-#Usage:
+# Usage:
 To set a 'name' cookie, navigate to http://localhost:8080/login?name=YourName in your browser, replacing 'YourName' with the name you want to set.
 
 To receive a personalized welcome message, navigate to http://localhost:8080/hello. If a 'name' cookie has been set, you'll receive a welcome message like 'Welcome YourName!'. If a 'name' cookie has not been set, you'll see 'No name cookie found'.
 
-#Dependencies:
+# Dependencies:
 Express.js: A web application framework for Node.js.
 
 cookie-parser: A middleware that parses cookies attached to the client request object.
 
-#Cyber Security Challenges:
+# Cyber Security Challenges:
 
-##Preventing XSS Flag:
+## Preventing XSS Flag:
 
-##Scenario:
+## Scenario:
 
 You are developing a web application where users can set their name through a query parameter which is then stored in a cookie and displayed back to the user.
 
-##Question:
+## Question:
 
 Given the code for this application, how would you modify it to prevent potential Cross-Site Scripting (XSS) attacks? Keep in mind that the user's name should be properly encoded before being displayed on the webpage or stored in the cookie.
 
-##Preventing Session Hijacking Flag:
+## Preventing Session Hijacking Flag:
 
-##Scenario:
+## Scenario:
 
 Your web application uses cookies to identify users. However, the cookies are not set with a secure transport protocol. 
 
-##Question:
+## Question:
 
 How would you modify the application's code to enhance the application's resistance to Session Hijacking.
 
