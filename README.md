@@ -23,3 +23,25 @@ Express.js: A web application framework for Node.js.
 
 cookie-parser: A middleware which parses cookies attached to the client request object.
 
+Cyber Security Challenges:
+
+Preventing XSS Flag:
+
+Scenario:
+
+You are developing a web application where users can set their name through a query parameter which is then stored in a cookie and displayed back to the user.
+
+Question:
+
+Given the code for this application, how would you modify it to prevent potential Cross-Site Scripting (XSS) attacks? Keep in mind that the user's name should be properly encoded before being displayed on the webpage or stored in the cookie.
+
+Preventing Session Hijacking Flag:
+
+Scenario:
+
+Your web application uses cookies to identify users. However, the cookies are not set with a secure transport protocol. 
+
+Question:
+
+How would you modify the application's code to enhance the application's resistance to Session Hijacking.
+
