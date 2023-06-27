@@ -1,7 +1,7 @@
-#Express Cookie Server
+# Express Cookie Server
 This is a simple Express.js application that sets and reads cookies. The server sets a 'name' cookie when the /login endpoint is accessed with a name query parameter. When the /hello endpoint is accessed, the server responds with a personalized welcome message if a 'name' cookie exists.
 
-#Setup & Installation:
+# Setup & Installation:
 To use this application, you'll need to have Node.js and npm installed on your machine.
 
 Clone this repository to your local machine using git clone <repo_url>.
